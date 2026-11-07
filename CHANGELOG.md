@@ -1,7 +1,13 @@
-Set-Content CHANGELOG.md @"
-## [Unreleased]
+# Changelog
 
-## - 2026-11-07
+All notable changes to this project will be documented in this file.
+
+## [Unreleased]
+### Added
+- Thêm hàm `Cart.sort_by_title()` sắp xếp giỏ hàng theo tên đĩa.
+- Thêm hàm `Cart.sort_by_cost()` sắp xếp giỏ hàng theo giá tăng dần.
+
+## [1.0.0] - 2026-11-07
 ### Added
 - Thêm chức năng Cart.print_cart() in thông tin giỏ hàng.
 - Thêm chức năng tìm kiếm sản phẩm search_by_title().
@@ -9,4 +15,4 @@ Set-Content CHANGELOG.md @"
 
 ### Fixed
 - Sửa lỗi giỏ hàng nhận đĩa thứ 21 (Issue #8).
-"@
+
