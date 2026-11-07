@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 ### Added
+- Thêm hàm `search_by_category()` hỗ trợ tìm kiếm sản phẩm theo thể loại.
 - Thêm hàm `Cart.sort_by_title()` sắp xếp giỏ hàng theo tên đĩa.
 - Thêm hàm `Cart.sort_by_cost()` sắp xếp giỏ hàng theo giá tăng dần.
 
